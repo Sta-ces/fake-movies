@@ -1,0 +1,32 @@
+{
+  "name": "fake-movies",
+  "version": "1.0.0",
+  "description": "List of fake movies access with API",
+  "keywords": [
+    "movies",
+    "actors",
+    "studios",
+    "free-api",
+    "fake"
+  ],
+  "homepage": "https://github.com/Sta-ces/fake-movies#readme",
+  "bugs": {
+    "url": "https://github.com/Sta-ces/fake-movies/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sta-ces/fake-movies.git"
+  },
+  "license": "ISC",
+  "author": "Cedric Staces",
+  "type": "commonjs",
+  "main": "/api/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@octokit/rest": "^22.0.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security"
+  }
+}

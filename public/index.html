@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fake Movies - Open API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Fake Movies API</h1>
+
+  <section>
+    <h2>Add a new Movie</h2>
+    <form id="movieForm">
+      <input type="text" name="title" placeholder="Movie Title" required>
+      <input type="number" name="year" placeholder="Year" required>
+      <input type="text" name="poster" placeholder="Poster URL">
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Add a new Actor</h2>
+    <form id="actorForm">
+      <input type="text" name="firstName" placeholder="First Name" required>
+      <input type="text" name="lastName" placeholder="Last Name" required>
+      <input type="date" name="birthDate" required>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Add a new Studio</h2>
+    <form id="studioForm">
+      <input type="text" name="name" placeholder="Studio Name" required>
+      <input type="text" name="country" placeholder="Country" required>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
