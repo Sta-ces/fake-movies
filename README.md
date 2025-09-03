@@ -9,8 +9,8 @@ The goal is to give developers and students an easy way to test, experiment, or 
 
 - Data stored in **JSON files** and fully version-controlled on GitHub.  
 - **Public REST API** to access all data.  
-- Online forms to submit new movies, actors, and studios.  
-- New submissions are handled through **automatic Pull Requests** on GitHub, keeping everything open-source.  
+- Online forms to submit new movies, actors, and studios *(in developement)*.  
+- New submissions are handled through **automatic Pull Requests** on GitHub, keeping everything open-source.
 - A simple frontend to:  
   - Display movies  
   - Filter results  
@@ -34,19 +34,17 @@ GET /api/studios
 GET /api/genres
 
 ### Add a Movie
-POST /api/movies
+POST /api/movies *(in developement)*
 Content-Type: application/json
 
 {
 "title": "Fake Adventure",
 "year": 2025,
-"poster": "posters/fake_adventure.jpg",
+"poster": "fake_adventure.jpg",
 "actors": [1, 2],
 "studios": [1],
 "genres": [3]
 }
-
-👉 This request creates a **Pull Request** on GitHub with the new entry.
 
 ---
 
@@ -54,8 +52,7 @@ Content-Type: application/json
 
 The project includes a static frontend (`index.html`) hosted via **GitHub Pages**, which allows users to:  
 - Browse movies  
-- Add new movies, actors, and studios through forms  
-- Interact directly with the API  
+- Add new movies, actors, and studios through forms *(in developement)*
 
 ---
 
@@ -67,9 +64,7 @@ Contributions are welcome!
    ```bash
    git checkout -b add-new-feature
 3. Add your changes (data or code)  
-4. Open a **Pull Request**  
-
-⚠️ Submissions via the web forms will also generate Pull Requests automatically.
+4. Open a **Pull Request**
 
 ---
 
@@ -86,6 +81,7 @@ npm install
 
 # Start the local server
 npm run dev
+```
 
 ### Frontend
 Simply open `public/index.html` in your browser.
@@ -104,5 +100,5 @@ However, any modifications or derivative works must remain under the same licens
 
 ## ✨ Authors
 
-- [Cédric Staces](https://github.com/Sta-ces) – Project Creator  
+- [Cedric Staces](https://github.com/Sta-ces) – Project Creator
 - Community contributors – thank you for making this project grow 🚀
