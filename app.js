@@ -13,10 +13,10 @@ let currentView = 'movies';
 // Load all datas
 async function loadData() {
     [movies, actors, studios, genders] = await Promise.all([
-        fetch('../datas/movies.json').then(r => r.json()),
-        fetch('../datas/actors.json').then(r => r.json()),
-        fetch('../datas/studios.json').then(r => r.json()),
-        fetch('../datas/genders.json').then(r => r.json())
+        fetch('./datas/movies.json').then(r => r.json()),
+        fetch('./datas/actors.json').then(r => r.json()),
+        fetch('./datas/studios.json').then(r => r.json()),
+        fetch('./datas/genders.json').then(r => r.json())
     ]);
     displayMovies(movies);
 }
@@ -40,7 +40,7 @@ function displayMovies(list) {
         const div = document.createElement('div');
         div.className = 'card movie-card size-[350px] relative overflow-hidden rounded-xl';
         div.innerHTML = `
-            <img src="../posters/${movie.poster}" alt="${movie.title}" class="h-full w-full absolute inset-auto object-cover z-[-1]">
+            <img src="./posters/${movie.poster}" alt="${movie.title}" class="h-full w-full absolute inset-auto object-cover z-[-1]">
             <div class="h-full flex flex-col justify-end p-6 bg-linear-to-t from-white/95 via-white/75 via-60% to-white/0 to-75%">
                 <span class="text-sm text-gray italic pb-0 pt-0">${movie.year}</span>
                 <h3 class="text-2xl font-bold pb-3">${movie.title}</h3>

@@ -84,7 +84,7 @@ npm run dev
 ```
 
 ### Frontend
-Simply open `public/index.html` in your browser.
+Simply open [`/index.html`](https://sta-ces.github.io/fake-movies/) in your browser.
 
 ---
 
