@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "birthDate": "1990-05-12",
+    "deathDate": null,
+    "gender": "F",
+    "height": 170,
+    "weight": 60,
+    "skinColor": "Fair",
+    "origin": "USA",
+    "languages": ["English", "Spanish"]
+  },
+  {
+    "id": 2,
+    "firstName": "Bob",
+    "lastName": "Smith",
+    "birthDate": "1985-11-03",
+    "deathDate": null,
+    "gender": "M",
+    "height": 180,
+    "weight": 75,
+    "skinColor": "Light",
+    "origin": "UK",
+    "languages": ["English", "French"]
+  },
+  {
+    "id": 3,
+    "firstName": "Clara",
+    "lastName": "Mendez",
+    "birthDate": "1992-07-21",
+    "deathDate": null,
+    "gender": "F",
+    "height": 165,
+    "weight": 55,
+    "skinColor": "Olive",
+    "origin": "Spain",
+    "languages": ["Spanish", "English"]
+  }
+]

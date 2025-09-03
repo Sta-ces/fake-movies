@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Space Cats",
+    "year": 2023,
+    "poster": "posters/space-cats.jpg",
+    "actors": [1, 2],
+    "studios": [1],
+    "genres": [1, 3]
+  },
+  {
+    "id": 2,
+    "title": "Moonlight Mystery",
+    "year": 2022,
+    "poster": "posters/moonlight-mystery.jpg",
+    "actors": [2, 3],
+    "studios": [2],
+    "genres": [4, 9]
+  },
+  {
+    "id": 3,
+    "title": "Sunrise Adventure",
+    "year": 2021,
+    "poster": "posters/sunrise-adventure.jpg",
+    "actors": [1, 3],
+    "studios": [3],
+    "genres": [2, 3, 7]
+  }
+]

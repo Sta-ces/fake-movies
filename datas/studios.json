@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "DreamVision Studios",
+    "creationDate": "1980-04-12",
+    "closureDate": null,
+    "country": "USA",
+    "popularity": 90
+  },
+  {
+    "id": 2,
+    "name": "Moonlight Productions",
+    "creationDate": "1995-09-30",
+    "closureDate": null,
+    "country": "UK",
+    "popularity": 75
+  },
+  {
+    "id": 3,
+    "name": "Sunrise Pictures",
+    "creationDate": "2000-06-15",
+    "closureDate": null,
+    "country": "France",
+    "popularity": 80
+  }
+]
